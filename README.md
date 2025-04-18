@@ -1,10 +1,13 @@
 # BinauralSynthesisAHL
-The script generates 
+The script generates binaural sounds with the example audio piece, castanets sound, and Head Related Impulse Response (HRTF, the time domain counterpart of HRTF). Please use headphones to listen to the results. The script generates sounds in different directions, forming a circle with pi/8 step. You are supposed to hear the sounds surrounding your head. The .sofa files in the HRTF-Database/Examples are different HRTFs. You can modify "sofa_path" to use other HRTFs and observe the difference in the results. 
 
 # Tested with:
 python                    3.10.16
+
 pyfar                     0.7.2
+
 sofar                     1.2.1 
+
 numpy                     2.2.4
 
 # Expected results:
