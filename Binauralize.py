@@ -13,8 +13,6 @@ def BinauralAudioFromHRIR(elevation, azimuth, radius, hrirs, sources):
 
     index, _ = sources.find_nearest(desired_direction)
 
-    #sources.show(index)
-
     # find the desired source position
     desired_direction = pf.Coordinates.from_spherical_elevation(
         azimuth, elevation, radius)
